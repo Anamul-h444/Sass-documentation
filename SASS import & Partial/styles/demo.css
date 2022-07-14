@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  background-color: #ff0000;
+  font-size: 18px;
+}
+
+p {
+  background-color: #0000ff;
+  font-size: 14px;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  margin: 0 15px;
+  transition: all 0.4s ease;
+}
+nav ul li a:hover {
+  background-color: black;
+  color: #fff;
+  padding: 4px 6px;
+  border-radius: 2px;
+}/*# sourceMappingURL=demo.css.map */

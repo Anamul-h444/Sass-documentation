@@ -1,0 +1,19 @@
+@mixin style1(){
+    background-color: aqua;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+@mixin style2($color, $size, $weight){
+    background-color:$color;
+    font-size: $size;
+    font-weight: $weight;
+}
+
+h1{
+    @include style1();
+}
+
+p{
+    @include style2(blue,16px ,500 )
+}

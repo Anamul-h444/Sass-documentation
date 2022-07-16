@@ -13,7 +13,7 @@
 5. Conditional CSS.
 
 #### How to use sass in React
-Install Sass in React by below command: 
+Install Sass in React by below command:   
 ```>npm i sass```  
 -> Create file same as css with extension .scss    
 -> import file as import './my-sass.scss'; which you want to use.    

@@ -1,0 +1,16 @@
+// @each $color in red, blue, green {
+//    .#{$color}-text{
+//     color:$color}
+// }
+
+$colors:(
+    color1:red,
+    color2:blue,
+    color3:green
+);
+
+@each $key, $color in $colors {
+    .#{$color}-text{
+     color:$color}
+ }
+

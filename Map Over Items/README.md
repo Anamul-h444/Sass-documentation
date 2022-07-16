@@ -1,11 +1,11 @@
 # Map over items documentation
 
 ##### First Syntax:  
-@each $PropertyName in PropertyvalueList{
-    .#{$PropertyName}-Add Any Name{
-        CssPropertyName : $PropertyName
-    }
-}
+@each $PropertyName in PropertyvalueList{  
+    .#{$PropertyName}-Add Any Name{  
+        CssPropertyName : $PropertyName  
+    }  
+}  
 
 ##### Second Sytem
 First Declare Variable.  

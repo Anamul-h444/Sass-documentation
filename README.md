@@ -10,4 +10,12 @@
 2. Sass import & partial.  
 3. Mixin & include.  
 4. Extend & inheritence.  
-5. Conditional CSS.  
+5. Conditional CSS.
+
+#### How to use sass in React
+Install Sass in React by below command:
+`>npm i sass`
+-> Create file same as css with extension .scss  
+-> import file as import './my-sass.scss'; which you want to use.  
+Detail:  
+https://www.w3schools.com/react/react_sass_styling.asp
